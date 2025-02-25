@@ -45,8 +45,8 @@ const Schedule = () => {
                   <span className="text-lg font-bold text-[#BCC1BA] font-['Montserrat']">11:30 AM - 2:30 PM</span>
                   <span className="px-4 py-1 rounded-full bg-[#BCC1BA]/20 text-[#BCC1BA] text-sm font-['Montserrat']">Tech Hub</span>
                 </div>
-                <h3 className="text-xl font-bold text-neutral-800 mb-2 font-['Playfair_Display']">Hackathon Begins</h3>
-                <p className="text-neutral-600 font-['Montserrat']">24-hour coding competition kicks off</p>
+                <h3 className="text-xl font-bold text-neutral-800 mb-2 font-['Playfair_Display']">Cultural Event</h3>
+                <p className="text-neutral-600 font-['Montserrat']">This is a sample event and list one the schedule is final.</p>
               </div>
             </div>
           </div>

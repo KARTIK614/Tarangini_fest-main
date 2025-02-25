@@ -241,7 +241,7 @@ const EventsPage = () => {
       <div className="flex justify-center mt-12">
       <Link
       //INSERT YOUR GOOGLE FORM LINK HERE
-        to="https://docs.google.com/forms/u/0/"
+        to="https://forms.gle/gWPr8BY1r22fWoKJA"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 bg-[#B5EAD7] text-neutral-800 px-8 py-3 rounded-full hover:bg-[#BCC1BA] transition-all duration-300 font-bold"

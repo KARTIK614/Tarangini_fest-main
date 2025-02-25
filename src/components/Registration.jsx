@@ -22,7 +22,7 @@ const Registration = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate__animated animate__fadeIn">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#B5EAD7] mb-6 font-['Playfair_Display']">Register Now</h2>
-          <p className="text-lg text-[#BCC1BA] max-w-2xl mx-auto font-['Montserrat']">You can do the registrations via events section. This section is not for Tarangini 2K25</p>
+          <p className="text-lg text-[#BCC1BA] max-w-2xl mx-auto font-['Montserrat']">You can do the registrations via events section. This section is for future events not for Tarangini 2K25.</p>
         </div>
 
         <div className="max-w-4xl mx-auto">

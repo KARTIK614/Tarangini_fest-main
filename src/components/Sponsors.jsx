@@ -6,7 +6,7 @@ const Sponsors = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate__animated animate__fadeIn">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#B5EAD7] mb-6 font-['Playfair_Display']">Our Event Organisers</h2>
-          <p className="text-lg text-[#BCC1BA] max-w-2xl mx-auto font-['Montserrat']">Proudly </p>
+          <p className="text-lg text-[#BCC1BA] max-w-2xl mx-auto font-['Montserrat']">Who Embarks the journey of the Tarangini 2K25.</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-16">
@@ -14,8 +14,8 @@ const Sponsors = () => {
             "Karan Singh Rathore",
             "Jitendra Meena",
             "Ashish Gonawat",
-            "Ananya Desai",
-            "Arjun Mehta"
+            "Harshpreet Singh",
+            "Manish Saini"
           ].map((organizer, index) => (
             <div
               key={index}
@@ -33,19 +33,23 @@ const Sponsors = () => {
 
         <div className="text-center">
           <div className="mb-8">
-            <h3 className="text-2xl font-bold text-[#BCC1BA] mb-4 font-['Playfair_Display']">Interested in Sponsoring?</h3>
+            <h3 className="text-2xl font-bold text-[#BCC1BA] mb-4 font-['Playfair_Display']">Become a Volunteer in Tarangini 2K25</h3>
             <p className="text-white/80 max-w-2xl mx-auto mb-8 font-['Montserrat']">
-              Join our growing list of sponsors and connect with talented students from across the nation
+              Registrations are closed for now, we'll open them for opcoming events.
             </p>
           </div>
 
           <button className="inline-flex items-center gap-2 bg-[#B5EAD7] text-neutral-900 px-8 py-3 rounded-full hover:bg-[#BCC1BA] transition-colors duration-300 font-['Montserrat'] font-bold animate__animated animate__pulse animate__infinite">
-            Become a Sponsor
+            Register Yourself For Tarangini.
             <ArrowRight className="h-5 w-5" />
           </button>
         </div>
 
-        {/* Decorative elements */}
+        {/* Decorative elements */
+          <link
+            to=""
+          ></link>
+        }
         <div className="absolute inset-0 z-0">
           <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-[#B5EAD7] rounded-full filter blur-3xl opacity-10"></div>
           <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-[#BCC1BA] rounded-full filter blur-3xl opacity-10"></div>
