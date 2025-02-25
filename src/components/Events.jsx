@@ -79,12 +79,13 @@ const Events = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="inline-flex items-center gap-2 bg-transparent border-2 border-[#B5EAD7] text-[#B5EAD7] px-8 py-3 rounded-full hover:bg-[#B5EAD7] hover:text-neutral-900 transition-colors duration-300 font-['Montserrat']"
-            onClick={() => window.location.href = '/events'}
+          <Link
+            to="/events"
+            className="inline-flex items-center gap-2 bg-transparent border-2 border-[#B5EAD7] text-[#B5EAD7] px-8 py-3 rounded-full hover:bg-[#B5EAD7] hover:text-neutral-900 transition-colors duration-300 font-['Montserrat']"
           >
             View All Events
             <ArrowRight className="h-5 w-5" />
-          </button>
+          </Link>
         </div>
       </div>
     </section>

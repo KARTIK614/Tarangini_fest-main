@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
-
+import { Link } from 'react-router-dom';
 const Registration = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -18,11 +18,11 @@ const Registration = () => {
   };
 
   return (
-    <section className="py-20 bg-neutral-900">
+    <section id="registration" className="py-20 bg-neutral-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate__animated animate__fadeIn">
           <h2 className="text-4xl lg:text-5xl font-bold text-[#B5EAD7] mb-6 font-['Playfair_Display']">Register Now</h2>
-          <p className="text-lg text-[#BCC1BA] max-w-2xl mx-auto font-['Montserrat']">You can do the registrations via events section. This section is not needed yet as of now.</p>
+          <p className="text-lg text-[#BCC1BA] max-w-2xl mx-auto font-['Montserrat']">You can do the registrations via events section. This section is not for Tarangini 2K25</p>
         </div>
 
         <div className="max-w-4xl mx-auto">
@@ -108,13 +108,14 @@ const Registration = () => {
             </div>
 
             <div className="mt-8 text-center">
-              <button 
-                type="submit" 
+              <Link
+               to="/events"
+         
                 className="bg-[#B5EAD7] text-neutral-900 px-12 py-4 rounded-full hover:bg-[#BCC1BA] transition-colors duration-300 font-bold font-['Montserrat'] inline-flex items-center gap-2 animate__animated animate__pulse animate__infinite"
               >
                 Register Now
                 <ArrowRight className="h-5 w-5" />
-              </button>
+              </Link>
             </div>
           </form>
         </div>

@@ -1,8 +1,9 @@
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-neutral-900 pt-20 overflow-hidden">
+    <section id="home" className="min-h-screen bg-neutral-900 pt-20 overflow-hidden">
       <div className="container mx-auto px-4 py-16 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-left animate__animated animate__fadeInLeft">
@@ -13,10 +14,13 @@ const Hero = () => {
               Experience the ultimate college festival with competitions, performances, and unforgettable moments.
             </p>
             <div className="flex flex-wrap gap-4">
-              <button className="bg-[#B5EAD7] text-neutral-900 px-8 py-4 rounded-full hover:bg-[#BCC1BA] transition-colors duration-300 font-['Montserrat'] font-bold flex items-center gap-2 animate__animated animate__pulse animate__infinite">
+              <Link
+                to="/events"
+                className="bg-[#B5EAD7] text-neutral-900 px-8 py-4 rounded-full hover:bg-[#BCC1BA] transition-colors duration-300 font-['Montserrat'] font-bold flex items-center gap-2 animate__animated animate__pulse animate__infinite"
+              >
                 Registrations Open
                 <ArrowRight size={20} />
-              </button>
+              </Link>
               <button className="border-2 border-[#BCC1BA] text-[#BCC1BA] px-8 py-4 rounded-full hover:bg-[#BCC1BA] hover:text-neutral-900 transition-colors duration-300 font-['Montserrat'] font-bold">
                 View Schedule
               </button>
@@ -28,8 +32,8 @@ const Hero = () => {
               </div>
               <div className="h-12 w-px bg-white/20"></div>
               <div className="text-white">
-                <h3 className="text-4xl font-bold font-['Playfair_Display']">50+</h3>
-                <p className="text-sm opacity-80">Colleges</p>
+                <h3 className="text-4xl font-bold font-['Playfair_Display']">100+</h3>
+                <p className="text-sm opacity-80">Participants</p>
               </div>
               <div className="h-12 w-px "></div>
               <div className="h-12 w-px bg-white/20"></div>

@@ -8,7 +8,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className="animate__animated animate__fadeInLeft">
@@ -49,49 +49,7 @@ const Contact = () => {
           </div>
 
           <div className="bg-neutral-50 p-8 rounded-2xl shadow-lg animate__animated animate__fadeInRight">
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label className="block text-neutral-800 mb-2 font-['Montserrat']">Name *</label>
-                <input 
-                  type="text" 
-                  required 
-                  className="w-full px-4 py-3 rounded-lg border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-[#B5EAD7] font-['Montserrat']" 
-                  placeholder="Your name"
-                />
-              </div>
-              <div>
-                <label className="block text-neutral-800 mb-2 font-['Montserrat']">Email *</label>
-                <input 
-                  type="email" 
-                  required 
-                  className="w-full px-4 py-3 rounded-lg border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-[#B5EAD7] font-['Montserrat']" 
-                  placeholder="Your email"
-                />
-              </div>
-              <div>
-                <label className="block text-neutral-800 mb-2 font-['Montserrat']">Subject *</label>
-                <input 
-                  type="text" 
-                  required 
-                  className="w-full px-4 py-3 rounded-lg border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-[#B5EAD7] font-['Montserrat']" 
-                  placeholder="Message subject"
-                />
-              </div>
-              <div>
-                <label className="block text-neutral-800 mb-2 font-['Montserrat']">Message *</label>
-                <textarea 
-                  required 
-                  className="w-full px-4 py-3 rounded-lg border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-[#B5EAD7] h-32 font-['Montserrat']" 
-                  placeholder="Your message"
-                ></textarea>
-              </div>
-              <button 
-                type="submit" 
-                className="w-full bg-[#B5EAD7] text-neutral-900 py-3 rounded-lg hover:bg-[#BCC1BA] transition-colors duration-300 font-bold font-['Montserrat'] animate__animated animate__pulse animate__infinite"
-              >
-                Send Message
-              </button>
-            </form>
+            
           </div>
         </div>
       </div>

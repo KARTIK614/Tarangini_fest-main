@@ -3,20 +3,30 @@ import { Link } from 'react-router-dom';
 
 const Navbar = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
   const navLinks = [
-    { to: "/", label: "Home" },
     { to: "/events", label: "Events" },
-    { to: "/schedule", label: "Schedule" },
-    { to: "/registration", label: "Register" },
-    { to: "/gallery", label: "Gallery" },
-    { to: "/contact", label: "Contact" }
+    { to: "#schedule", label: "Schedule" },
+    { to: "#registration", label: "Register" },
+    { to: "#gallery", label: "Gallery" },
+    { to: "#contact", label: "Contact" }
   ];
+
+  const handleNavClick = (e, to) => {
+    if (to.startsWith('#')) {
+      e.preventDefault();
+      const element = document.querySelector(to);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+        setIsMobileMenuOpen(false);
+      }
+    }
+  };
 
   return (
     <header className="fixed w-full z-50 bg-neutral-900/90 backdrop-blur-sm">
       <div className="relative">
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <Link to="/" className="text-2xl font-bold text-[#B5EAD7] font-['Playfair_Display']">
+            <Link to="/" onClick={(e) => handleNavClick(e, '#home')} className="text-2xl font-bold text-[#B5EAD7] font-['Playfair_Display']">
               TARANGINI 2K25
             </Link>
             
@@ -33,6 +43,7 @@ const Navbar = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
                 <Link
                   key={link.to}
                   to={link.to}
+                  onClick={(e) => handleNavClick(e, link.to)}
                   className="text-white hover:text-[#B5EAD7] transition-colors duration-300 font-['Montserrat']"
                 >
                   {link.label}
@@ -54,7 +65,10 @@ const Navbar = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
                   key={link.to}
                   to={link.to}
                   className="text-lg text-white hover:text-[#B5EAD7] transition-colors duration-300 font-['Montserrat'] py-2"
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={(e) => {
+                    handleNavClick(e, link.to);
+                    setIsMobileMenuOpen(false);
+                  }}
                 >
                   {link.label}
                 </Link>

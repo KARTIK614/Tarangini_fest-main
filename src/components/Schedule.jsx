@@ -5,7 +5,7 @@ const Schedule = () => {
   const [activeTab, setActiveTab] = useState('day1');
 
   return (
-    <section className="py-20 bg-white">
+    <section id="schedule" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate__animated animate__fadeIn">
           <h2 className="text-4xl lg:text-5xl font-bold text-neutral-800 mb-6 font-['Playfair_Display']">Event Schedule</h2>
