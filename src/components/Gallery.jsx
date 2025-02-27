@@ -5,17 +5,17 @@ const Gallery = () => {
     {
       title: "Cultural Night",
       description: "Dance Performance",
-      image: "https://imgur.com/a/vnQchoL"
+      image: "https://res.cloudinary.com/di5h1gnx5/image/upload/v1740633437/first_image_y0hlpp.jpg"
     },
     {
       title: "Hackathon",
       description: "Coding Competition",
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80"
+      image: "https://res.cloudinary.com/di5h1gnx5/image/upload/v1740634177/DSC_0815_1_r0dv5t.jpg"
     },
     {
       title: "Sports Event",
       description: "Cricket Tournament",
-      image: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=800&q=80"
+      image: "https://res.cloudinary.com/di5h1gnx5/image/upload/v1740634319/_MG_4613_2_gsuohn.jpg"
     }
   ];
 
