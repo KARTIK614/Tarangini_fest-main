@@ -39,8 +39,8 @@ const Footer = () => {
             <ul className="space-y-4 font-['Montserrat']">
               <li><a href="https://drive.google.com/file/d/14M_yNKjazadpTQ1kmMIg3jEUPLxq5csy/view" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Memory Vault</a></li>
               <li><a href="http://drive.google.com/file/d/19nPZiTQkrUqDfOIX2xnIgwJLrH9lNCeS/view" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Maze Of Deception</a></li>
-              <li><a href="https://drive.google.com/file/d/1Wy2wE-GkzKz1xGAhKyUT6jelaDB8QFK8/view" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Treasure Hunt</a></li>
-              <li><a href="https://drive.google.com/file/d/13qObi8f_F62mGkt1yzuX1qyVuOGhfxoX/view" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Talent Show</a></li>
+              <li><a href="https://drive.google.com/file/d/1Wy2wE-GkzKz1xGAhKyUT6jelaDB8QFK8/view?usp=drive_link" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Treasure Hunt</a></li>
+              <li><a href="https://drive.google.com/file/d/13qObi8f_F62mGkt1yzuX1qyVuOGhfxoX/view?usp=drive_link" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Talent Show</a></li>
             </ul>
           </div>
 
@@ -73,7 +73,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3 text-white/80">
                 <Phone className="w-5 h-5" />
-                <span>+91 9871500947: (Harshpreet Sing)</span>
+                <span>+91 9871500947: (Harshpreet Singh)</span>
               </li>
             </ul>
           </div>
