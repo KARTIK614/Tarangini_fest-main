@@ -48,7 +48,7 @@ const Contact = () => {
           <div className="bg-neutral-50 p-8 rounded-2xl shadow-lg animate__animated animate__fadeInRight overflow-hidden">
             {/* Replace the URL below with your actual Cloudinary image URL */}
             <img 
-              src="https://res.cloudinary.com/di5h1gnx5/image/upload/v1740634515/file_txw2yr.png" 
+              src="https://res.cloudinary.com/di5h1gnx5/image/upload/v1740634843/file_eff8ls.png" 
               alt="Contact us" 
               className="w-full h-full object-cover rounded-xl"
             />
