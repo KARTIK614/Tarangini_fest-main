@@ -37,10 +37,10 @@ const Footer = () => {
           <div className="animate__animated animate__fadeInUp" style={{ animationDelay: '0.4s' }}>
             <h3 className="text-xl font-bold text-[#AEC6CF] mb-6 font-['Playfair_Display']">Events</h3>
             <ul className="space-y-4 font-['Montserrat']">
-              <li><a href="#" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Cultural Events</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Maze Of Deception</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Treasure Hunt</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Open Mic</a></li>
+              <li><a href="https://drive.google.com/file/d/14M_yNKjazadpTQ1kmMIg3jEUPLxq5csy/view" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Memory Vault</a></li>
+              <li><a href="http://drive.google.com/file/d/19nPZiTQkrUqDfOIX2xnIgwJLrH9lNCeS/view" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Maze Of Deception</a></li>
+              <li><a href="https://drive.google.com/file/d/1Wy2wE-GkzKz1xGAhKyUT6jelaDB8QFK8/view" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Treasure Hunt</a></li>
+              <li><a href="https://drive.google.com/file/d/13qObi8f_F62mGkt1yzuX1qyVuOGhfxoX/view" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Talent Show</a></li>
             </ul>
           </div>
 
