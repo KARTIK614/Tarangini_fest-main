@@ -3,18 +3,18 @@ import { ArrowRight } from 'lucide-react';
 const Gallery = () => {
   const galleryItems = [
     {
-      title: "Cultural Night",
-      description: "Dance Performance",
+      title: "Tarangini Meetup",
+      description: "Welcoming Guest.",
       image: "https://res.cloudinary.com/di5h1gnx5/image/upload/v1740634319/_MG_4613_2_gsuohn.jpg"
     },
     {
-      title: "Hackathon",
-      description: "Coding Competition",
+      title: "Freashers",
+      description: "Group Photo.",
       image: "https://res.cloudinary.com/di5h1gnx5/image/upload/v1740635525/WhatsApp_Image_2025-02-27_at_10.22.50_58772db6_qms0rt.jpg"
     },
     {
-      title: "Sports Event",
-      description: "Cricket Tournament",
+      title: "Freashers",
+      description: "Cultural Dance Performance",
       image: "https://res.cloudinary.com/di5h1gnx5/image/upload/v1740633437/first_image_y0hlpp.jpg"
     }
   ];
@@ -24,7 +24,7 @@ const Gallery = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate__animated animate__fadeIn">
           <h2 className="text-4xl lg:text-5xl font-bold text-neutral-800 mb-6 font-['Playfair_Display']">Event Gallery</h2>
-          <p className="text-lg text-neutral-600 max-w-2xl mx-auto font-['Montserrat']">Glimpses of our previous fest celebrations(Upcoming...)</p>
+          <p className="text-lg text-neutral-600 max-w-2xl mx-auto font-['Montserrat']">Glimpses of our previous fest celebrations.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
