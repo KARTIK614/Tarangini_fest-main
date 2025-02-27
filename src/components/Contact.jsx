@@ -25,7 +25,6 @@ const Contact = () => {
                   <p className="text-neutral-600 font-['Montserrat']">21cs39@ecajmer.ac.in</p>
                 </div>
               </div>
-
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-[#BCC1BA]/20 flex items-center justify-center">
                   <Phone className="h-6 w-6 text-[#BCC1BA]" />
@@ -35,7 +34,6 @@ const Contact = () => {
                   <p className="text-neutral-600 font-['Montserrat']">+91 9672903736: (Karan Singh Rathore)</p>
                 </div>
               </div>
-
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-[#AEC6CF]/20 flex items-center justify-center">
                   <MapPin className="h-6 w-6 text-[#AEC6CF]" />
@@ -47,9 +45,13 @@ const Contact = () => {
               </div>
             </div>
           </div>
-
-          <div className="bg-neutral-50 p-8 rounded-2xl shadow-lg animate__animated animate__fadeInRight">
-            
+          <div className="bg-neutral-50 p-8 rounded-2xl shadow-lg animate__animated animate__fadeInRight overflow-hidden">
+            {/* Replace the URL below with your actual Cloudinary image URL */}
+            <img 
+              src="https://res.cloudinary.com/di5h1gnx5/image/upload/v1740634515/file_txw2yr.png" 
+              alt="Contact us" 
+              className="w-full h-full object-cover rounded-xl"
+            />
           </div>
         </div>
       </div>
