@@ -38,9 +38,9 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-[#AEC6CF] mb-6 font-['Playfair_Display']">Events</h3>
             <ul className="space-y-4 font-['Montserrat']">
               <li><a href="#" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Cultural Events</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Technical Events</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Sports Events</a></li>
-              <li><a href="#" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Literary Events</a></li>
+              <li><a href="#" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Maze Of Deception</a></li>
+              <li><a href="#" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Treasure Hunt</a></li>
+              <li><a href="#" className="text-white/80 hover:text-[#AEC6CF] transition-colors">Open Mic</a></li>
             </ul>
           </div>
 
@@ -62,6 +62,18 @@ const Footer = () => {
               <li className="flex items-center space-x-3 text-white/80">
                 <Phone className="w-5 h-5" />
                 <span>+91 6378884889: (Jitendra Meena)</span>
+              </li>
+              <li className="flex items-center space-x-3 text-white/80">
+                <Phone className="w-5 h-5" />
+                <span>+91 8764365384: (Ashish Gonawat)</span>
+              </li>
+              <li className="flex items-center space-x-3 text-white/80">
+                <Phone className="w-5 h-5" />
+                <span>+91 8209025966: (Manish Saini)</span>
+              </li>
+              <li className="flex items-center space-x-3 text-white/80">
+                <Phone className="w-5 h-5" />
+                <span>+91 9871500947: (Harshpreet Sing)</span>
               </li>
             </ul>
           </div>
