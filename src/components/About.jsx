@@ -11,7 +11,7 @@ const About = () => {
                 <div className="space-y-4">
                   <div className="h-48 bg-[#B5EAD7]/30 rounded-2xl p-6 backdrop-blur-sm flex flex-col items-center justify-center">
                     <h3 className="text-4xl font-bold text-neutral-800 font-['Playfair_Display'] text-center">Tarangini 2K25</h3>
-                    <p className="mt-2 text-neutral-600 font-['Montserrat'] text-center">19th-20th April</p>
+                    <p className="mt-2 text-neutral-600 font-['Montserrat'] text-center">Annual College Fest</p>
                   </div>
                   <div className="h-48 bg-[#BCC1BA]/30 rounded-2xl p-6 backdrop-blur-sm">
                     <h3 className="text-4xl font-bold text-neutral-800 font-['Playfair_Display']">Cultural Events</h3>
@@ -21,7 +21,7 @@ const About = () => {
                 <div className="space-y-4 pt-12">
                   <div className="h-48 bg-[#AEC6CF]/30 rounded-2xl p-6 backdrop-blur-sm">
                     <h3 className="text-4xl font-bold text-neutral-800 font-['Playfair_Display']">Theme</h3>
-                    <p className="mt-2 text-neutral-600 font-['Montserrat']">All States of India.</p>
+                    <p className="mt-2 text-neutral-600 font-['Montserrat']">States of India.</p>
                   </div>
                   <div className="h-48 bg-[#B5EAD7]/30 rounded-2xl p-6 backdrop-blur-sm">
                     <h3 className="text-4xl font-bold text-neutral-800 font-['Playfair_Display']">Adventure</h3>

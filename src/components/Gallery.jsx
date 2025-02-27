@@ -3,14 +3,14 @@ import { ArrowRight } from 'lucide-react';
 const Gallery = () => {
   const galleryItems = [
     {
-      title: "Tarangini Meetup",
-      description: "Welcoming Guest.",
-      image: "https://res.cloudinary.com/di5h1gnx5/image/upload/v1740634319/_MG_4613_2_gsuohn.jpg"
+      title: "Freashers",
+      description: "Panna Dhay Event",
+      image: "https://res.cloudinary.com/di5h1gnx5/image/upload/v1740676368/WhatsApp_Image_2025-02-27_at_11.45.07_515ee2eb_kz7q62.png"
     },
     {
       title: "Freashers",
-      description: "Group Photo.",
-      image: "https://res.cloudinary.com/di5h1gnx5/image/upload/v1740635525/WhatsApp_Image_2025-02-27_at_10.22.50_58772db6_qms0rt.jpg"
+      description: "Fashion Show",
+      image: "https://res.cloudinary.com/di5h1gnx5/image/upload/v1740676555/WhatsApp_Image_2025-02-27_at_10.27.54_c53bc8d8_swmbav.jpg"
     },
     {
       title: "Freashers",
@@ -48,12 +48,12 @@ const Gallery = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <button className="inline-flex items-center gap-2 bg-[#B5EAD7] text-neutral-800 px-8 py-3 rounded-full hover:bg-[#BCC1BA] transition-colors duration-300 font-['Montserrat'] font-bold">
             View Full Gallery
             <ArrowRight className="h-5 w-5" />
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

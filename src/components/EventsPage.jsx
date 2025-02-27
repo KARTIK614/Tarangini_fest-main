@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Music, Code, Trophy, Aperture, CreditCard, Book, Mic, Camera, Brush, ChefHat, Gamepad, Brain, Target, Users, Rocket, Zap, Palette, Theater, ArrowRight } from 'lucide-react';
+import { Music,Megaphone, Code,BookOpenCheck, Trophy, Aperture, CreditCard, Book, Mic, Camera, Brush, ChefHat, Gamepad, Brain, Target, Users, Rocket, Zap, Palette, Theater, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 
@@ -10,11 +10,29 @@ const EventsPage = () => {
     {
       icon: <Music className="w-8 h-8" />,
       title: "Solo Singing",
+      description: "Celebrate the spirit of valor and heritage with Gaurav Gatha – a tribute to cultural legends and heroic tales!",
+      category: "Cultural",
+      color: "rgba(203, 181, 234, 0.2)",
+      textColor: "#CBB5EA",
+      formLink: "https://drive.google.com/file/d/1HIo9oqG2yWCkas1wE4CMK5a57WGecq25/view?usp=drive_link"
+    },
+    {
+      icon: <BookOpenCheck  className="w-8 h-8" />,
+      title: "Gaurav Gatha",
       description: "Showcase your vocal talent in the Solo Singing Competition, sing your heart out with confidence, melody, and expression! 🎤🎶",
       category: "Cultural",
       color: "rgba(203, 181, 234, 0.2)",
       textColor: "#CBB5EA",
       formLink: "https://drive.google.com/file/d/1HIo9oqG2yWCkas1wE4CMK5a57WGecq25/view?usp=drive_link"
+    },
+    {
+      icon: <Megaphone  className="w-8 h-8" />,
+      title: "Adminia",
+      description: "Showcase your creativity with a twist! 🎭✨ Create and present original, humorous advertisements at Adminia – where innovation meets entertainment!",
+      category: "Arts",
+      color: "rgba(188, 193, 186, 0.2)",
+      textColor: "#BCC1BA",
+      formLink: "https://drive.google.com/file/d/1CBSaARiJ-t_u0l39eG__PoONpuGLIIPx/view?usp=sharing"
     },
     {
       icon: <CreditCard className="w-8 h-8" />,
@@ -63,7 +81,7 @@ const EventsPage = () => {
     },
     {
       icon: <Brush className="w-8 h-8" />,
-      title: "Art & Draw",
+      title: "Act & Draw",
       description: "🎭🎨 Act, Draw, and Express—Tarangini 2K25 challenges your creativity like never before! ✨",
       category: "Arts",
       color: "rgba(188, 193, 186, 0.2)",
@@ -77,7 +95,7 @@ const EventsPage = () => {
       category: "Cultural",
       color: "rgba(174, 198, 207, 0.2)",
       textColor: "#AEC6CF",
-      formLink: "https://drive.google.com/file/d/1Jb4dFPbjj5w_3fsovCCWvMAr6RtHedZS/view?usp=drive_link"
+      formLink: "https://drive.google.com/file/d/140E7RoV1ZhLtclAo0ctdMibZraLCYRUY/view?usp=drive_link"
     },
     {
       icon: <Mic className="w-8 h-8" />,
@@ -144,12 +162,12 @@ const EventsPage = () => {
     },
     {
       icon: <Theater className="w-8 h-8" />,
-      title: "Fashion Show",
+      title: "Fashion Walk",
       description: "Strut with Pride. Flaunt the Culture. 🌍✨ Tarangini 2K25 Fashion Show – Where Tradition Meets the Ramp",
       category: "Cultural",
       color: "rgba(174, 198, 207, 0.2)",
       textColor: "#AEC6CF",
-      formLink: "https://drive.google.com/file/d/1wGLlmc8yu68X909Rrl2GD4pSTcj8sge4/view?usp=drive_link"
+      formLink: "https://drive.google.com/file/d/1DCy9NqHXUfNsEhNQelkHyEwRwLnGSZP9/view?usp=drive_link"
     }
   ];
 
