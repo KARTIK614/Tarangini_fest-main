@@ -5,7 +5,7 @@ const Gallery = () => {
     {
       title: "Cultural Night",
       description: "Dance Performance",
-      image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800&q=80"
+      image: "https://imgur.com/a/vnQchoL"
     },
     {
       title: "Hackathon",
