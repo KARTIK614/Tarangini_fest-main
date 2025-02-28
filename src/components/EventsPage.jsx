@@ -23,7 +23,7 @@ const EventsPage = () => {
       category: "Cultural",
       color: "rgba(203, 181, 234, 0.2)",
       textColor: "#CBB5EA",
-      formLink: "https://drive.google.com/file/d/15XLjvYcoRE3VrPSF_KwSh9aqIQx4APSK/view?usp=drive_link"
+      formLink: "https://drive.google.com/file/d/1PzERvf9h1T7aDU5gbp_xpUqDHg9j9M7q/view?usp=drive_link"
     },
     {
       icon: <Megaphone  className="w-8 h-8" />,
