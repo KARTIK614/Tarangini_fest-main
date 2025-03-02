@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import EventsPage from './components/EventsPage';
+import ScrollToTop from './components/ScrollToTop';
 
 function AppContent() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -14,6 +15,7 @@ function AppContent() {
   return (
     <div className={`min-h-screen ${colors.background}`}>
       <Router>
+      <ScrollToTop />
         <ErrorBoundary>
           <Navbar 
             isMobileMenuOpen={isMobileMenuOpen} 
