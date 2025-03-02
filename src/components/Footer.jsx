@@ -82,7 +82,7 @@ const Footer = () => {
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white/60 text-sm font-['Montserrat'] mb-4 md:mb-0">
-              © 2025 Tarangini Fest.
+              Created By <a href="https://www.linkedin.com/in/garvit-joshi1/" className="text-[#B5EAD7] hover:underline transition-colors">Garvit Joshi</a>, <a href="https://www.linkedin.com/in/arnab-gupta-b55b88301/" className="text-[#B5EAD7] hover:underline transition-colors">Arnab Gupta</a>, <a href="https://www.linkedin.com/in/kartik-pareek-783b5123a/" className="text-[#B5EAD7] hover:underline transition-colors">Kartik Pareek</a>.
             </p>
             <div className="flex space-x-6 font-['Montserrat']">
               <a href="/privacy" className="text-white/60 hover:text-[#B5EAD7] text-sm transition-colors">Privacy Policy</a>
