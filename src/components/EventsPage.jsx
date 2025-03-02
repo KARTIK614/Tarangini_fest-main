@@ -189,7 +189,7 @@ const EventsPage = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-4 mb-8">
+        <div className="flex flex-wrap justify-center gap-6 mb-12">
           {categories.map(category => (
             <button
               key={category}
@@ -208,10 +208,10 @@ const EventsPage = () => {
           {filteredEvents.map((event, index) => (
             <div
               key={`${event.title}-${index}`}
-              className="group relative backdrop-blur-sm rounded-2xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300"
+              className="group relative backdrop-blur-sm rounded-2xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 flex flex-col"
               style={{ backgroundColor: event.color }}
             >
-              <div className="p-6">
+              <div className="p-6 flex flex-col h-full">
                 <div className="mb-4" style={{ color: event.textColor }}>
                   {event.icon}
                 </div>
@@ -224,7 +224,7 @@ const EventsPage = () => {
                 <p className="text-white/80 mb-4 font-['Montserrat']">
                   {event.description}
                 </p>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-4 mt-auto pt-6">
                   <span
                     className="inline-block px-3 py-1 rounded-full text-sm font-['Montserrat']"
                     style={{
@@ -238,7 +238,7 @@ const EventsPage = () => {
                     href={event.formLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block px-4 py-2 rounded-lg text-sm font-['Montserrat'] text-center transition-all hover:opacity-90"
+                    className="inline-block px-4 py-3 rounded-lg text-sm font-['Montserrat'] text-center transition-all hover:opacity-90"
                     style={{
                       backgroundColor: event.textColor,
                       color: '#1a1a1a'
@@ -256,7 +256,7 @@ const EventsPage = () => {
         </div>
       </div>
       
-      <div className="flex justify-center mt-12">
+      <div className="flex justify-center mt-16">
       <Link
       //INSERT YOUR GOOGLE FORM LINK HERE
         to="https://forms.gle/gWPr8BY1r22fWoKJA"
