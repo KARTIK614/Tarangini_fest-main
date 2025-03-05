@@ -29,9 +29,13 @@ const Hero = () => {
                 Registrations Open
                 <ArrowRight size={20} />
               </Link>
-              <button className="border-2 border-[#BCC1BA] text-[#BCC1BA] px-6 py-3 md:px-8 md:py-4 rounded-full hover:bg-[#BCC1BA] hover:text-neutral-900 transition-colors duration-300 font-['Montserrat'] font-bold">
+              <a
+                href="https://drive.google.com/file/d/1sWzXEHOPn8xTQ8ssplAKkxgzB8zw6Ned/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-[#BCC1BA] text-[#BCC1BA] px-6 py-3 md:px-8 md:py-4 rounded-full hover:bg-[#BCC1BA] hover:text-neutral-900 transition-colors duration-300 font-['Montserrat'] font-bold">
                 View Schedule
-              </button>
+              </a>
             </div>
             
             {/* Stats section */}
